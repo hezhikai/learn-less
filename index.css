@@ -1,0 +1,192 @@
+@charset "utf-8";
+body {
+  color: #000;
+}
+.variable .variable1 {
+  width: 100px;
+  height: 100px;
+  background-color: #F0F;
+  display: inline-block;
+}
+.variable .variable2 {
+  width: 100px;
+  height: 100px;
+  background-color: #EA5;
+  display: inline-block;
+}
+.variable .variable3 {
+  width: 100px;
+  height: 100px;
+  background: url("lib/50.jpg");
+  display: inline-block;
+  color: #CADE;
+}
+.variable {
+  margin-bottom: 10px;
+}
+.blend div {
+  display: inline-block;
+}
+.blend .box1 {
+  width: 100px;
+  height: 100px;
+  background-color: #0F0;
+}
+.blend .blend1 {
+  width: 100px;
+  height: 100px;
+  background-color: #0F0;
+  background-color: #CCC;
+}
+.blend .blend2 {
+  width: 100px;
+  height: 100px;
+  background-color: #0F0;
+  border: 3px solid #334499;
+}
+.blend .blend3 {
+  width: 100px;
+  height: 100px;
+  background-color: #0F0;
+  border: 8px solid #555555;
+}
+.blend .blend4 {
+  width: 100px;
+  height: 100px;
+  background-color: #0F0;
+  border: 1px solid #555555;
+}
+.match div {
+  display: inline-block;
+}
+.match .match1 {
+  border-width: 5px;
+  border-color: transparent transparent #000000 transparent;
+  border-style: dashed dashed solid dashed;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+.match .match2 {
+  border-width: 10px;
+  border-color: #000000 transparent transparent transparent;
+  border-style: solid dashed dashed dashed;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+.match .match3 {
+  border-width: 10px;
+  border-color: transparent transparent transparent #eeeeee;
+  border-style: dashed dashed dashed solid;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+.match .match4 {
+  border-width: 5px;
+  border-color: transparent #000000 transparent transparent;
+  border-style: dashed solid dashed dashed;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+.match .match5 {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+.operation {
+  height: 100px;
+  width: 150px;
+  background-color: #FF0;
+  border-radius: 50%;
+}
+.nesting ul {
+  list-style: none;
+}
+.nesting li {
+  font-size: 20px;
+  color: #00F;
+}
+.nesting li:hover {
+  color: #F00;
+}
+.nesting .title {
+  line-height: 20px;
+}
+.nesting .title_a {
+  text-decoration: none;
+}
+.arguments {
+  border: 10px #00ff00 solid;
+}
+.avoidCompiled {
+  width: calc(100% - 500px);
+  background-color: #f90;
+}
+.conditional .conditional1 {
+  height: 45px;
+  width: 80px;
+  background-color: #ABB;
+}
+.conditional .conditional2 {
+  height: 80px;
+  width: 80px;
+  background-color: #DDA;
+}
+.conditional .conditional3 {
+  width: 85px;
+  height: 50px;
+}
+.loop .icon1 {
+  width: 20px;
+}
+.loop .icon2 {
+  width: 40px;
+}
+.loop .icon3 {
+  width: 60px;
+}
+.loop .icon4 {
+  width: 80px;
+}
+.loop .icon5 {
+  width: 100px;
+}
+.loop .icon6 {
+  width: 120px;
+}
+.loop .icon7 {
+  width: 140px;
+}
+.loop .icon8 {
+  width: 160px;
+}
+.loop .icon9 {
+  width: 180px;
+}
+.loop .icon10 {
+  width: 200px;
+}
+.important {
+  width: 100px !important;
+  height: 100px !important;
+  height: 50px;
+  background-color: #000;
+  color: #FFF;
+  border-width: 5px !important;
+  border-color: blue !important;
+  border-style: solid !important;
+  border-width: 10px;
+}
+body {
+  border: 1px solid #8E8;
+}
+div {
+  box-shadow: 0 0 5px #6E6;
+  -webkit-box-shadow: 0 0 5px #6E6;
+  -moz-box-shadow: 0 0 5px #6E6;
+  -o-box-shadow: 0 0 5px #6E6;
+  -ms-box-shadow: 0 0 5px #6E6;
+}

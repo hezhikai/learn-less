@@ -1,0 +1,7 @@
+div {
+	box-shadow: 0 0 5px #6E6;
+	-webkit-box-shadow: 0 0 5px #6E6;
+	-moz-box-shadow: 0 0 5px #6E6;
+	-o-box-shadow: 0 0 5px #6E6;
+	-ms-box-shadow: 0 0 5px #6E6;
+}
